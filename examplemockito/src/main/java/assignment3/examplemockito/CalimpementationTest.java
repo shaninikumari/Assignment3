@@ -10,11 +10,15 @@ public class CalimpementationTest extends TestCase {
 
 	protected void setUp() throws Exception {
 		obj = new Calimpementation();
-		a = 5;
-		b =8;
+		a = 8;
+		b =4;
 		
 		calInterface mockobj =mock(calInterface.class);
 		when(mockobj.add(a, b)).thenReturn(a+b);
+		when(mockobj.subtract(a, b)).thenReturn(a-b);
+		when(mockobj.multiply(a, b)).thenReturn(a*b);
+		when(mockobj.divide(a, b)).thenReturn((double) (a|b));
+		
 		
 		obj.setIntObj(mockobj);
 	}
@@ -22,10 +26,29 @@ public class CalimpementationTest extends TestCase {
 	
 	public void testAddTwoNums() {
 		//fail("Not yet implemented");
-		assertEquals(13, obj.addTwoNums(a, b));
+		assertEquals(12, obj.addTwoNums(a, b));
 		
 		
 	}
+	public void subtract() {
+		//fail("Not yet implemented");
+		assertEquals(4, obj.addTwoNums( a, b ));
+		
+		
+	}
+	public void multiply() {
+		//fail("Not yet implemented");
+		assertEquals (32, obj.addTwoNums( a, b ));
+		
+		
+	}
+	public void divide() {
+		//fail("Not yet implemented");
+		assertEquals(2, obj.addTwoNums(a, b));
+		
+		
+	}
+	
 	protected void tearDown() throws Exception {
 		obj = null;
 		a = 0;
