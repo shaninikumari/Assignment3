@@ -11,9 +11,9 @@ public class CalimpementationTest extends TestCase {
 	protected void setUp() throws Exception {
 		obj = new Calimpementation();
 		a = 5;
-		b =8 ;
+		b =8;
 		
-		calInterface mockobj = mock(calInterface.class);
+		calInterface mockobj =mock(calInterface.class);
 		when(mockobj.add(a, b)).thenReturn(a+b);
 		
 		obj.setIntObj(mockobj);

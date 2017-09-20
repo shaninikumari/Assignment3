@@ -8,7 +8,7 @@ public class Calimpementation {
 		
 	}
 	
-	public int subtract(int a, int b) {
+	public int subtract( int a, int b) {
 		return intObj.subtract(a , b);
 		
 	}
