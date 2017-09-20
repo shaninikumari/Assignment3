@@ -19,7 +19,7 @@ public class Calimpementation {
 	}
 	
 	public double divide(int a, int b) {
-		return intObj.divide(a, b);
+		return intObj.divide(a, b );
 		
 	}
 	

@@ -32,19 +32,19 @@ public class CalimpementationTest extends TestCase {
 	}
 	public void subtract() {
 		//fail("Not yet implemented");
-		assertEquals(4, obj.addTwoNums( a, b ));
+		assertEquals(4, obj.subtract(a, b));
 		
 		
 	}
 	public void multiply() {
 		//fail("Not yet implemented");
-		assertEquals (32, obj.addTwoNums( a, b ));
+		assertEquals (32, obj.divide(a, b));
 		
 		
 	}
 	public void divide() {
 		//fail("Not yet implemented");
-		assertEquals(2, obj.addTwoNums(a, b));
+		assertEquals(2, obj.divide(a, b));
 		
 		
 	}
