@@ -11,7 +11,7 @@ public class Implementation implements Add, Sub{
 		return result;
 	}
 
-	public long add(long... ls) {
+	public long add( long... ls) {
 		long result = 0;
 		
 		for (long temp: ls) {

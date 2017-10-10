@@ -23,7 +23,7 @@ public class ImplementationTest {
 		long ans = 5 + (-3) + 21 + (-18);
 		assertEquals(ans, obj.add(5, -3, 21, -18));
 
-		ans = 38 + (-17);
+		ans = 38 + ( -17 );
 		assertEquals(ans, obj.add(38, -17));
 
 		ans = 0;
